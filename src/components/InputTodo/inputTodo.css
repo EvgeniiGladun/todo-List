@@ -1,0 +1,52 @@
+.inputTodo-form {
+  display: flex;
+  max-width: 350px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.inputTodo-input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.inputTodo-input:focus {
+  outline: none;
+}
+
+.inputTodo-button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.inputTodo-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.inputTodo-button:focus {
+  outline: none;
+}
+
+.inputTodo-button:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.inputTodo-button:disabled {
+  cursor: not-allowed;
+  background-color: rgb(41, 41, 41);
+  color: rgb(0, 0, 0);
+  box-shadow: none;
+}

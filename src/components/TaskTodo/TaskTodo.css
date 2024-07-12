@@ -1,0 +1,77 @@
+.taskTodo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 350px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(0, 30, 36);
+  background: linear-gradient(
+    248deg,
+    rgba(106, 220, 243, 0.547) 0%,
+    rgba(8, 209, 176, 0.737) 100%
+  );
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.task-title {
+  overflow-wrap: anywhere;
+  text-align: center;
+  margin: 0;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.checkbox-label {
+  margin-right: 10px;
+}
+
+.checkbox-input {
+  margin-left: 10px;
+}
+
+.task-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.task-button {
+  width: 48%;
+}
+
+.task-button:first-child {
+  margin-right: 10px;
+}
+
+.task-button:last-child {
+  margin-left: 10px;
+}
+
+.task-button:hover {
+  cursor: pointer;
+}
+
+.task-button:focus {
+  outline: none;
+}
+
+.task-button:active {
+  transform: scale(0.98);
+}
+
+.task-button:disabled {
+  cursor: not-allowed;
+  transform: none;
+}

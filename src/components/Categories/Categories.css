@@ -1,0 +1,32 @@
+.categories {
+  display: flex;
+  align-items: start;
+  padding: 10px;
+}
+
+.category {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.category:active {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.category:focus {
+  outline: none;
+}
+
+.category:disabled {
+  cursor: not-allowed;
+  background-color: rgb(41, 41, 41);
+  color: rgb(0, 0, 0);
+  box-shadow: none;
+}
