@@ -27,9 +27,8 @@ function TaskTodo(props) {
           Удалить
         </button>
         <button
-          disabled
           className="task-button"
-          onClick={() => props.editTask(props.task)}
+          onClick={(evt) => props.handlePopup(props.id_task)}
         >
           Изменить
         </button>
